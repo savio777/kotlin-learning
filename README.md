@@ -69,7 +69,7 @@ kotlinc app/src/main/java/com/example/helloworld/ -include-runtime -d out/main.j
 Para experimentar trechos de Kotlin de forma interativa:
 
 ```bash
-kotlinc
+kotlinc -Xrepl
 ```
 
 Digite o código (ex.: `println(1 + 2)`) e saia com `:quit`.
